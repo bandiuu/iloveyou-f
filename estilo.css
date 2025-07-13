@@ -1,0 +1,96 @@
+*{
+  margin: 0px;
+  font-family: aaroncito, Verdana;
+  font-size: 25px;
+}
+
+@font-face{
+  font-family: aaroncito;
+  src: url('Bullate Regular.ttf');
+}
+
+.container{
+  background: linear-gradient(to bottom right, #ffc0cb, #ffe4e1);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+p{
+  text-align: center;
+}
+
+span{
+  font-size: 60px;
+  padding: 0px;
+}
+
+.centrador{
+  text-align: center;
+}
+
+.kitty{
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+button{
+  font-size: 35px;
+  margin: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+#yesBtn{
+  background-color: #ffb6c1;
+  border: 2px solid white;
+}
+#noBtn{
+  position: absolute;
+  background-color: #ff69b4;
+  border: 2px solid white;
+}
+
+.amarillo{
+  color: #ffef96;
+}
+.rosa{
+  color: #ff69b4; 
+}
+.naranja{
+  color: #ff6f61;
+}
+.azul{
+  color: #d291bc;
+}
+.verde{
+  color: #c1e1c1;
+}
+
+.nombre{   
+  -webkit-text-fill-color: #e75480;
+  -webkit-text-stroke: 2px white;
+}
+
+
+.carta {
+  display: none;
+  background: #fff0f5;
+  color: #8b0000;
+  padding: 30px;
+  margin: 40px auto;
+  width: 80%;
+  max-width: 700px;
+  border-radius: 15px;
+  font-size: 18px;
+  line-height: 1.8;
+  white-space: pre-wrap;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
