@@ -1,25 +1,59 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>¿Me aceptas? 💖</title>
-  <link rel="stylesheet" href="estilo.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carta para Milena 💗</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <audio id="loveAudio" src="musica.mp3"></audio>
 
-  <div class="container centrador">
-    <p><span class="amarillo">Hola</span> <span class="nombre" id="data"></span> 💘</p>
-    <p><span class="naranja">¿Quieres ser mi persona favorita para siempre?</span></p>
-
-    <img src="kitty1.gif" class="kitty" alt="Hello Kitty" />
-
-    <div class="centrador">
-      <button id="yesBtn">💘 SÍ 💘</button>
-      <button id="noBtn">❌ NO ❌</button>
-    </div>
+  <div class="background">
+    <!-- Lirios flotantes -->
+    <img src="lirio1.png" class="lirio" style="top:10%; left:5%;" />
+    <img src="lirio2.png" class="lirio" style="top:30%; left:80%;" />
+    <img src="lirio3.png" class="lirio" style="top:60%; left:10%;" />
+    <img src="lirio4.png" class="lirio" style="top:80%; left:70%;" />
   </div>
 
-  <div id="carta" class="carta"></div>
+  <main class="container">
+    <h1 class="typewriter">Una carta, un momento y todo mi amor solo para ti.</h1>
+
+    <button class="btn play" onclick="toggleMusic()">💗 Reproducir música</button>
+
+    <section class="mensaje">
+      <p>Cuando escuché tu risa, lo supe.<br>
+      Cuando hablamos horas sin parar, lo sentí.<br>
+      Y cuando te pienso, lo confirmo:<br>
+      <strong>Mi corazón te eligió a ti, Milena.</strong></p>
+    </section>
+
+    <section class="carta">
+      <p><strong>Mi Milena hermosa,</strong></p>
+      <p>
+        Desde que llegaste a mi vida, todo tiene un color diferente. A veces creo que no fui yo quien te encontró, sino que el destino, con sus formas tan extrañas, quiso que dos personas de lugares distintos coincidieran en este mundo para aprender a amarse, aún con la distancia de por medio.
+      </p>
+      <p>
+        Aún puedo escuchar tu risa esa noche en la que nos amanecimos jugando parkour. No era solo un juego… fue ahí, entre las bromas, las charlas y las risas a deshoras, que sin darme cuenta me enamoré. Me enamoré de cómo hablabas, de cómo brillabas incluso desde lejos, de lo dulce que eres, como ese chocolate que tanto te gusta.
+      </p>
+      <p>
+        Sé que a veces no es fácil, ni perfecto. Pero si de algo estoy seguro es de que yo voy a estar para ti, siempre. No importa si estamos a kilómetros o a segundos, yo quiero construir esto con vos. Lo único que pido es que me hables siempre con el corazón, que seas sincera, que confíes en mí tanto como yo confío en vos.
+      </p>
+      <p>
+        Me encantaría tomarte de la mano, mirarte a los ojos y decirte cuánto te amo, cuánto me importás, y cuánto deseo que esto que tenemos crezca cada día más.
+      </p>
+      <p>
+        Gracias por ser esa persona con la que puedo ser yo. Por dejarme entrar en tu vida. Por tus mensajes, por tus silencios, por tus detalles… por simplemente ser tú.
+      </p>
+      <p>
+        Te prometo que este amor va en serio, sin juegos, sin máscaras. Solo nosotros, aprendiendo, cayéndonos a veces, pero siempre eligiéndonos.
+      </p>
+      <p>Con amor,<br>Bandi 💗</p>
+    </section>
+
+    <a href="carta.pdf" download class="btn">🌸 Una carta, desde mi corazón</a>
+  </main>
 
   <script src="script.js"></script>
 </body>
